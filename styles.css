@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #006747;
+}
+.nav {
+  background-color: #efeff0;
+  height: 3rem;
+  display: flex;
+}
+
+.nav-text {
+  font: 600 2.25em/1em "Barlow Condensed", sans-serif;
+  color: #006747;
+  margin: auto 0;
+  margin-top: 0.7rem;
+}
+
+.nav-image {
+  margin-left: 2rem;
+  justify-content: right;
+}
+
+#map {
+  height: 30rem;
+
+  width: 95%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  min-width: 120px;
+  font: "Barlow Condensed", sans-serif;
+  cursor: pointer;
+}
+
+.button-section-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.button-section-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.2rem;
+}
