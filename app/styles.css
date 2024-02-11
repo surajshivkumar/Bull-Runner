@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+.map-holder {
+  display: flex;
+  justify-content: center;
+}
+#map {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 600px;
+  height: 700px;
+}
